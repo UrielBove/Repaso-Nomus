@@ -52,3 +52,7 @@ superRegeneracion = UnPoder{cantCuracion = 1000, cantDanio = 0, rangoAtaque = 0,
 
 fuego :: Poder
 fuego = UnPoder{cantCuracion = 0, cantDanio = 600, rangoAtaque = 40, probabilidadDanioCritico = 300}
+
+--Practica
+esTop :: (Ord a) => a -> a-> Bool
+esTop algo otroAlgo = algo < otroAlgo
